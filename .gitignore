@@ -1,0 +1,50 @@
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore build outputs
+dist/
+build/
+out/
+
+# Ignore TypeScript cache and output files
+*.tsbuildinfo
+
+# Ignore log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Ignore OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Ignore environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore specific tools
+coverage/
+*.log
+jest-coverage/
+nyc_output/
+.eslintcache
+.stylelintcache
+.cache/
+.prettier.cache
+
+# Ignore lockfiles if using a different package manager (optional)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Ignore compiled output for Next.js
+.next/
+
+# Ignore compiled output for Nuxt.js
+.nuxt/
